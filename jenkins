@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage('crm'){
+            steps{
+                echo 'crm'
+            
+            }
+        }
+        stage('build'){
+            steps{
+                echo 'build'
+            }
+        }
+        stage('deploy'){
+            steps{
+                echo 'deploy'
+            }
+        }
+    }
+}
